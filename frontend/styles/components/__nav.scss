@@ -19,8 +19,9 @@
             font-family: $font_sans;
             font-size: 34px;
             font-weight: 900;
-            letter-spacing: -0.01rem;
+            letter-spacing: -0.15rem;
             line-height: 1;
+            color: $ink;
 
             .logo_span{
                 color: $logo_orange;
@@ -46,6 +47,21 @@
             @include flex(row, space-evenly, center, 8px 40px);
             font-family: $font_sans;
             font-size: 15px;
+        }
+    }
+
+    .nav-left {
+        @include flex(row, space-evenly, center, 8px 40px);
+
+        .nav-order-now-btn {
+            padding: 15px 22px 15px 26px;
+            background-color: $red;
+            color: $paper;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1;
+            font-family: $font_sans_extra;
         }
     }
 

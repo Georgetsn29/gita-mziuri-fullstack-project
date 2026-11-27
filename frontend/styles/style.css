@@ -23,8 +23,9 @@
   font-family: "Fira Sans", sans-serif;
   font-size: 34px;
   font-weight: 900;
-  letter-spacing: -0.01rem;
+  letter-spacing: -0.15rem;
   line-height: 1;
+  color: #17120f;
 }
 
 #header .logo_wrapper .logo .logo_span {
@@ -49,6 +50,25 @@
   gap: 8px 40px;
   font-family: "Fira Sans", sans-serif;
   font-size: 15px;
+}
+
+#header .nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px 40px;
+}
+
+#header .nav-left .nav-order-now-btn {
+  padding: 15px 22px 15px 26px;
+  background-color: #c8321d;
+  color: #f2ebdf;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
 * {
